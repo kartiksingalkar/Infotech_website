@@ -1,0 +1,78 @@
+<NavDropdown title="Marketing Solutions"
+                                    show={show}
+                                    onMouseOver={showDropdown}
+                                    onMouseLeave={hideDropdown}
+                                    onClick={handleMarket}
+                                    id='collasible-nav-dropdown' className='navbar-liks'
+                                >
+                                    {/* <NavDropdown.Item href="/digital-marketing">Digital Marketing</NavDropdown.Item> */}
+                                    <NavDropdown className='digital-marketing-drop' title='Digital Marketing'
+                                        show={showDm}
+                                        onMouseOver={digitalMarketingShow}
+                                        onMouseLeave={digitalMarketingHide}
+                                        onClick={handleDm}>
+                                        <div className='digital-marketing-dd'>
+                                            <NavDropdown.Item href='/digital-marketing/sem' >Search Engine Marketing</NavDropdown.Item>
+                                            <NavDropdown.Item href="/digital-marketing/seo" >Search Engine Optimization</NavDropdown.Item>
+                                            <NavDropdown.Item href="/digital-marketing/smm" >Social Media Marketing</NavDropdown.Item>
+                                            <NavDropdown.Item href="/digital-marketing/smo" >Social Media  Optimization</NavDropdown.Item>
+                                            <NavDropdown.Item href="/digital-marketing/sms_marketing" >SMS Marketing</NavDropdown.Item>
+                                            {/* <NavDropdown.Item href="/digital-marketing/pm" >Paid Marketing</NavDropdown.Item> */}
+                                            <NavDropdown.Item href="/digital-marketing/em" >Email Marketing</NavDropdown.Item>
+                                        </div>
+                                    </NavDropdown>
+                                    <NavDropdown className='digital-marketing-drop' href="/b2b" title="B2B Marketing Solutions"
+                                        show={showEs}
+                                        onMouseOver={EsShow}
+                                        onMouseLeave={EsHide}
+                                        onClick={handleEs}>
+                                        <div className='digital-marketing-dd'>
+                                            <NavDropdown.Item href="/b2b/mils" >MILs / MQLs / SQLs /SRLs</NavDropdown.Item>
+                                            <NavDropdown.Item href="/b2b/cotent_sydicaion" >Content Syndication</NavDropdown.Item>
+                                            <NavDropdown.Item href="/b2b/appointment_generation" >Appointment Generation</NavDropdown.Item>
+                                            <NavDropdown.Item href="/b2b/bant" >BANT / CHAMP Leads</NavDropdown.Item>
+                                            <NavDropdown.Item href="/b2b/intet_leads" >Intent Leads</NavDropdown.Item>
+                                        </div>
+                                    </NavDropdown>
+                                    <NavDropdown className='digital-marketing-drop' href="/event_support" title="Event Support Services "
+                                        show={showB2bData}
+                                        onMouseOver={B2bDataShow}
+                                        onMouseLeave={B2bDataHide}
+                                        onClick={handleB2bData}>
+                                        <div className='digital-marketing-dd'>
+                                            <NavDropdown.Item href="/event_support/seminar" >Seminar & Webinar Registrations / Invitations</NavDropdown.Item>
+                                            <NavDropdown.Item href="/event_support/trade_show" >Trade Show Visitor Invitations / Registrations</NavDropdown.Item>
+                                            <NavDropdown.Item href="/event_support/webcast" >Webcast Invitations / Registrations</NavDropdown.Item>
+                                            <NavDropdown.Item href="/event_support/exhibition" >B2B Exhibition Booth Lead Generation</NavDropdown.Item>
+                                            <NavDropdown.Item href="/event_support/delegate_invitations" >Delegate Invitations / Registrations</NavDropdown.Item>
+                                        </div>
+                                    </NavDropdown>
+                                    <NavDropdown className='digital-marketing-drop' href="/database_services" title="B2B Database Services"
+                                        show={showB2b}
+                                        onMouseOver={B2bShow}
+                                        onMouseLeave={B2bHide}
+                                        onClick={handleB2B}>
+                                        <div className='digital-marketing-dd'>
+                                            <NavDropdown.Item href="/database_services/account_profiling" >Account Profiling</NavDropdown.Item>
+                                            <NavDropdown.Item href="/database_services/db_mining" >B2B Database Mining & Extraction</NavDropdown.Item>
+                                            <NavDropdown.Item href="/database_services/db_research" >B2B Database Research</NavDropdown.Item>
+                                            <NavDropdown.Item href="/database_services/db_cleansing" >B2B Database Cleansing</NavDropdown.Item>
+                                            <NavDropdown.Item href="/database_services/db_validation" >B2B Database Validation</NavDropdown.Item>
+                                        </div>
+                                    </NavDropdown>
+
+                                    {/* <NavDropdown.Item href="/b2b">B2B Solutions</NavDropdown.Item> */}
+                                </NavDropdown>
+                                <NavDropdown title="IT solutions"
+                                    show={showIt}
+                                    onMouseOver={showDropdownIt}
+                                    onMouseLeave={hideDropdownIt}
+                                    onClick={handleIt}
+                                    id={`offcanvasNavbarDropdown-expand-lg`} className='navbar-liks'>
+                                    <NavDropdown.Item href="/mobile-development">Mobile App Development</NavDropdown.Item>
+                                    <NavDropdown.Item href="/web-development">Web Development</NavDropdown.Item>
+                                    <NavDropdown.Item href="/uiux">UI UX Designing</NavDropdown.Item>
+                                    <NavDropdown.Item href="/hrms">Custom HRMS Solutions</NavDropdown.Item>
+                                    <NavDropdown.Item href="/erp">Custom ERP Solutions</NavDropdown.Item>
+                                    <NavDropdown.Item href="/crm">Custom CRM Solutions</NavDropdown.Item>
+                                </NavDropdown>

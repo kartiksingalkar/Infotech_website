@@ -1,0 +1,82 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+.testimonial-app {
+    /* padding: 0 30px; */
+}
+.testimonial-app {
+    /* padding: 0 30px; */
+    margin-bottom: -145px;
+    margin-top: -70px;
+}
+
+.testimonial-slide {
+    transform: scale(0.5);
+    transition: transform 800ms;
+    opacity: 0.5;
+    
+}
+
+.activeSlide {
+    transform: scale(0.6);
+    opacity: 1;
+    margin-left: -10px;
+}
+
+.testimonial-arrow {
+    background-color: #fff;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.testimonial-arrow svg {
+    transition: color 300ms;
+    color: black;
+}
+
+.testimonial-arrow svg:hover {
+    color: #68edff;
+}
+
+.next {
+    right: 0%;
+    top: 50%;
+}
+
+.prev {
+    left: 0%;
+    top: 50%;
+}
+
+.testimonial-cards {
+    height: 550px !important;
+    width: 450px !important;
+    background: white;
+    color: black;
+    border-radius: 67px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.25);
+    padding: 69px 30px 54px 50px;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) and (min-width:481px) {
+
+}
+/* tab */
+@media screen and (max-width: 767px) and (min-width:481px) {
+    .testimonial-cards {
+        height: 550px !important;
+        width: 400px !important;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width:767px) {
+    .testimonial-cards {
+        height: 550px !important;
+        width: 400px !important;
+    }
+
+}

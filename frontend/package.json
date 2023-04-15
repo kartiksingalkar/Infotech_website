@@ -1,0 +1,72 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://demo.ellorainfotech.com",
+  "dependencies": {
+    "@egjs/react-flicking": "^4.10.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@trendyol-js/react-carousel": "^3.0.0",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "formik": "^2.2.9",
+    "jquery": "^3.6.3",
+    "materialize-css": "^1.0.0-rc.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-bootstrap-submenu": "^3.0.1",
+    "react-card-carousel": "^1.1.3",
+    "react-carousel": "^4.3.0",
+    "react-client-captcha": "^1.0.3",
+    "react-dom": "^18.2.0",
+    "react-faq-component": "^1.3.4",
+    "react-google-recaptcha": "^2.1.0",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.41.5",
+    "react-icons": "^4.7.1",
+    "react-paginate": "^8.1.4",
+    "react-phone-number-input": "^3.2.16",
+    "react-router-dom": "^6.6.1",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-swiper": "^0.1.5",
+    "react-tabs": "^6.0.0",
+    "react-toastify": "^9.1.1",
+    "react-tsparticles": "^2.7.1",
+    "reactjs-popup": "^2.0.5",
+    "scss": "^0.2.4",
+    "slick-carousel": "^1.8.1",
+    "tsparticles": "^2.7.1",
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.19",
+    "yup": "^0.32.11",
+    "yup-phone": "^1.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && netlify deploy --prod --dir ./build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

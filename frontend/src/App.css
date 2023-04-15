@@ -1,0 +1,188 @@
+
+.navbar-liks {
+    color: black !important;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #121212;
+    text-transform: capitalize;
+    white-space: pre;
+}
+.digital-marketing-drop{
+
+}
+.digital-marketing-dd {
+    position: absolute !important;
+    margin-left: 371px !important;
+    width: max-content !important;
+    background: white !important;
+    margin-top: -42px !important;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    width: 370px;
+    height: auto;
+    border-radius: 0;
+    /* margin-top: 30px; */
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    border: none;
+}
+.dropdown-toggle {
+    font-weight: 400 !important;
+    border: none !important;
+}
+.digital-marketing-drop {
+    border-bottom: 1px solid #D9D9D9 !important;
+    padding: 17px 15px 17px 15px !important;
+    white-space: break-spaces !important;
+}
+.digital-marketing-drop:hover{
+    background: #272973;
+    color: white !important;
+}
+.digital-marketing-drop:active>.nav-link{
+    color: white !important;
+}
+
+
+
+/* Googlefont Poppins CDN Link */
+
+
+
+
+.nav-links-dd{
+    height: 100%;
+  }
+  .links-dd{
+    display: flex;
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .links-dd li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 14px;
+  }
+  .links-dd li a{
+    /* height: 100%;
+    text-decoration: none;
+    white-space: nowrap;
+    color: black;
+    font-size: 15px;
+    font-weight: 500; */
+    color: black ;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #121212;
+    text-transform: capitalize;
+
+  }
+  .links-dd li:hover .htmlcss-arrow,
+  .links-dd li:hover .js-arrow{
+    transform: rotate(180deg);
+    }
+  
+  .links-dd li .arrow{
+    /* background: red; */
+    height: 100%;
+    width: 22px;
+    line-height: 70px;
+    text-align: center;
+    display: inline-block;
+    color: black !important;
+    transition: all 0.3s ease;
+  }
+  .links-dd li .sub-menu-dd{
+    position: absolute;
+    top: 25px;
+    left: -70px;
+    /* line-height: 40px; */
+    background: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 4px 4px;
+    display: none;
+    z-index: 2;
+    width: 370px;
+    padding-left: 0px !important;
+  }
+  .links-dd li .sub-menu-dd li:hover{
+    background: #272973;
+  }
+  .links-dd li .sub-menu-dd li:hover>a span{
+    color: white !important;
+  }
+  .more:hover>a span{
+    color: white !important;
+
+  }
+  .sub-menu-dd a li:hover>span{
+    color: white;
+  }
+  .links-dd li:hover .htmlCss-sub-menu,
+  .links-dd li:hover .js-sub-menu{
+    display: block;
+  }
+   .links-dd li .sub-menu-dd li{
+    /* padding: 0 22px; */
+    /* border-bottom: 1px solid rgba(255,255,255,0.1); */
+    border-bottom: 1px solid #D9D9D9 !important;
+    padding: 17px 15px 17px 15px !important;
+   
+  }
+  .links-dd li .sub-menu-dd a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #121212;
+    text-transform: capitalize;
+  }
+  .links-dd li .sub-menu-dd .more-arrow{
+    line-height: 40px;
+  }
+  .links-dd li .htmlCss-more-sub-menu{
+    /* line-height: 40px; */
+  }
+  .links-dd li .sub-menu-dd .more-sub-menu{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border-radius: 0 4px 4px 4px;
+    z-index: 1;
+    display: none;
+    width: max-content !important;
+  }
+  .links-dd li .sub-menu-dd .more:hover .more-sub-menu{
+    display: block;
+  }
+  /* .more a{
+    color: black;
+  }
+  
+  .sub-menu-dd li>a span{
+    color: white !important;
+  } */
+  .more:hover>.active{
+    color: white;
+  }
+
+  .navbar-social-icons ul {
+    display: flex;
+    list-style: none;
+    gap: 13px;
+    margin-right: 10px;
+}
+.footer-left-bottom-quick-links A{
+  cursor: pointer;
+}
+  

@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.aboutCompany-container {
+  width: auto;
+  height: 740px;
+  background: #f2f2f2;
+}
+.abtCompany-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.abtcompany-para1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  padding-top: 30px;
+  color: #282a74;
+}
+.abtcompany-para2 {
+  width: 840px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #121212;
+  padding-top: 20px;
+}
+.abtCompany-img {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin-top: 30px;
+}
+.abtcompany-img-para {
+  width: 650px;
+  height: 360px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #121212;
+}
+.abtcompany-homeImg {
+  width: 436px;
+  height: 436px;
+}
+.abtcompany-readbtn {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #282a74;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* margin-top: 40px; */
+}
+
+/* mobile view */
+
+@media screen and (max-width: 480px) and (min-width: 260px) {
+  .aboutCompany-container {
+    width: auto;
+    height: auto;
+    background: #f2f2f2;
+  }
+  .abtcompany-para1 {
+    font-size: 25px;
+    color: #282a74;
+    margin: 0;
+    padding-top: 60px;
+  }
+  .abtcompany-para2 {
+    padding-top: 0px;
+    width: 370px;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+  }
+  .abtCompany-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+  }
+  .abtCompany-img{
+    margin-top: 65px;
+  }
+  .abtcompany-homeImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 236px;
+    margin-top: -3rem;
+  }
+  .abtcompany-img-para {
+    width: 370px;
+    font-size: 17px;
+    text-align: center;
+  }
+  .abtcompany-readbtn {
+    font-size: 20px;
+    width: 100%;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+/* tab view */
+@media screen and (max-width: 850px) and (min-width: 480px) {
+  .abtcompany-para1 {
+    font-size: 40px;
+    padding-top: 41px;
+  }
+  .abtcompany-para2 {
+    width: 750px;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+  }
+  .abtCompany-img {
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
+  .abtcompany-homeImg {
+    width: 350px;
+    height: 436px;
+  }
+  .abtcompany-img-para {
+    width: 370px;
+    font-size: 17px;
+    line-height: 32px;
+  }
+  .aboutCompany-container{
+    height: 844px;
+  }
+  .whatwe-para-main{
+    padding-top: 34px !important;
+    padding-bottom: 46px !important;
+  }
+
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.whatwe-container {
+  height: 785px;
+  background: #f2f2f2;
+}
+.whatWe-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.card-1 {
+  width: 253px;
+  height: 282px;
+  background: #ffffff;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+  transition: transform .2s;
+  flex: 0 0 20%;
+}
+.card-1:hover{
+  transform: scale(1.09);
+}
+.card-1-flex {
+  display: flex;
+  flex-direction: column;
+}
+.card-icon1 {
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+  margin-left: 1.4rem;
+}
+.card-para1 {
+  width: 134px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 51px;
+  letter-spacing: 0.07em;
+  color: #282a74;
+  padding-left: 10px;
+}
+.card-para5 {
+  width: 220px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 51px;
+
+  letter-spacing: 0.07em;
+
+  color: #282a74;
+  /* margin-top: 10px; */
+  margin-left: 10px;
+}
+.whatwe-para-main {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  text-align: center;
+  color: #282a74;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 480px) and (min-width: 260px) {
+  .whatwe-container {
+    display: none;
+  }
+}
+@media screen and (max-width: 850px) and (min-width: 480px) {
+  .whatwe-container {
+    height: auto;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}

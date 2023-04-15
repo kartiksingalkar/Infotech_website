@@ -1,0 +1,73 @@
+.pp-hero {
+    background-image: url("../media/pp-signing.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pp-overlay {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    opacity: 0.65;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 200px;
+}
+
+.pp-content {
+    margin: 0 200px;
+    margin-top: 50px;
+}
+
+.pp-content p {
+    font-weight: 300;
+}
+
+.pp-title {
+    font-weight: 590 !important;
+    margin-bottom: -2px;
+}
+
+@media only screen and (max-width: 600px) {
+    .pp-content {
+        margin: 0 50px;
+        margin-top: 50px;
+    }
+    .pp-overlay {
+        padding-left: 50px;
+        font-size: 40px;
+
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    .pp-content {
+        margin: 0 50px;
+        margin-top: 50px;
+    }
+    .pp-overlay {
+        padding-left: 50px;
+        font-size: 40px;
+
+    }
+}
+
+@media only screen and ((min-width: 601px) and (max-width: 900px)) {
+    .pp-content {
+        margin: 0 50px;
+        margin-top: 50px;
+    }
+    .pp-overlay {
+        padding-left: 50px;
+        font-size: 40px;
+    }
+}

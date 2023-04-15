@@ -1,0 +1,131 @@
+.stickyMailButtonContainer {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #272973;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  z-index: 1000;
+  cursor: pointer;
+  position: fixed;
+  top: 15%;
+  right: 1%;
+  z-index: 999;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+.stickyMailButtonContainer.siedebar .mainIcon {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.is-sticky {
+  position: fixed;
+  top: 15%;
+  right: 10px;
+  z-index: 999;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+/* POP UP */
+
+.stickyMailPopUpContainer {
+  width: 100%;
+  height: 100vh;
+}
+
+.stickyMailPopUp {
+  width: 50vw;
+  height: 70vh;
+  position: fixed;
+  top: 16%;
+  left: 22%;
+  background: #c6c698;
+  border-radius: 8px;
+  z-index: 1000;
+  box-shadow: 0px 0px 10px 500px rgba(0, 0, 0, 0.5);
+}
+
+.popupmailContainer {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border-radius: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupmailContainer .popupMailHeadingCont {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popupmailContainer h3.popupMailHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 20px;
+  color: #00000099;
+  font-weight: 900;
+  padding-bottom: 0;
+}
+
+.popupmailContainer h3.popupMailHeading span {
+  font-weight: 900;
+  color: #000000;
+}
+
+.popupmailContainer .popupMailHeadingCont .timesIcon {
+  font-size: 30px;
+  color: #888787;
+  margin-bottom: 37px;
+  cursor: pointer;
+}
+
+.popupmailContainer .popmailContactform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupmailContainer .popMailCaptchaInput {
+  background: #eaeaea;
+  border: 1px solid #c8c8ff;
+  border-radius: 8px;
+  outline: none;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.popupmailContainer .popMailCaptchaBtn {
+  background: #272973;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.popupmailContainer textarea {
+  border: none;
+}
+
+.popupmailContainer input:focus,
+.popupmailContainer textarea:focus,
+.popupmailContainer select:focus {
+  outline: 0.75px solid #eb455f;
+}
+
+.popupmailContainer input:hover,
+.popupmailContainer textarea:hover,
+.popupmailContainer select:hover {
+  border: 0.75px solid #ffa3fd;
+}
